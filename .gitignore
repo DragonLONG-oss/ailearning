@@ -29,6 +29,7 @@ output/
 *.parquet
 *.npy
 *.npz
+flower_data/
 
 # ========== MacOS 系统垃圾 ==========
 .DS_Store

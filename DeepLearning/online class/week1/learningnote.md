@@ -1,3 +1,5 @@
+
+
 # Week 1 Deep Learning Notes
 
 The first 30 episodes of the online course content are more fundamental. Mostly provide beginners with an understanding of deep learning.
