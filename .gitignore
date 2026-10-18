@@ -1,0 +1,44 @@
+# ========== 大模型/词向量/权重文件 ==========
+*.bin
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.pt
+*.onnx
+
+# 兜底屏蔽glove
+NLP/week1/1 lecture/glove.6B.200d.bin
+
+# ========== Python 缓存 ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter：只忽略缓存文件夹，保留ipynb笔记！
+.ipynb_checkpoints/
+
+# ========== 数据集、日志、输出 ==========
+data/
+dataset/
+logs/
+runs/
+output/
+*.csv
+*.parquet
+*.npy
+*.npz
+
+# ========== MacOS 系统垃圾 ==========
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ========== conda 环境 ==========
+.venv/
+env/
+conda_env/
+
+# ========== VSCode 临时文件（可选） ==========
+# .vscode/

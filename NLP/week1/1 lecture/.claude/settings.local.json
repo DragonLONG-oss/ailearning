@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(conda env *)",
+      "Bash(/Users/jialongli/miniconda3/envs/cs224n/bin/python *)",
+      "Read(//Users/jialongli/gensim-data/**)",
+      "Bash(curl -sI --max-time 8 https://raw.githubusercontent.com/RaRe-Technologies/gensim-data/master/list.json)",
+      "Bash(curl -sI --max-time 8 https://nlp.stanford.edu/data/glove.6B.zip)",
+      "Bash(curl -sI --max-time 10 https://downloads.cs.stanford.edu/nlp/data/glove.6B.zip)",
+      "Bash(curl *)",
+      "WebSearch",
+      "WebFetch(domain:search.gitee.com)"
+    ]
+  }
+}
